@@ -14,7 +14,7 @@ public class CreatingJavaInternetShortcut{
 		shortcut.write("URL=" + webURL +"\n");
 		shortcut.write("IconFile="+icon);
 		shortcut.flush();
-		shortcut.close();
+		shortcut.close(); 
   }
   
   public void createDesktopShortcut(){
